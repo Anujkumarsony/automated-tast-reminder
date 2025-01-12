@@ -21,8 +21,8 @@ setInterval(async () => {
             const transporter = nodemailer.createTransport({
               service: "gmail",
               auth: {
-                user: "anujkumarrr0@gmail.com",
-                pass: "usym lmsz ubez skag",
+                user: "enter your email@gmail.com",
+                pass: "App password",
               },
             });
 

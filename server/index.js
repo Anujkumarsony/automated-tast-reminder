@@ -16,9 +16,7 @@ app.use(routes);
 
 async function main() {
   await mongoose
-    .connect(
-      "mongodb+srv://anuj:anuj@task-reminder.z68hy.mongodb.net/?retryWrites=true&w=majority&appName=task-reminder"
-    )
+    .connect("enter url")
     .then(() => console.log("DB Connect"))
     .catch((err) => console.log(err));
 
